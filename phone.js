@@ -104,11 +104,11 @@ const handelShowDetails = async (id) => {
 };
 
 const showPhoneDetails = (phone) => {
-  console.log(phone);
+  // console.log(phone);
   const phoneName = document.getElementById("show-detail-phone-name");
   phoneName.innerText = phone.name;
   phoneName.classList.add("text-center")
-  console.log(phone.name);
+  // console.log(phone.name);
   const showDetailsContainer = document.getElementById("show-detail-container");
   showDetailsContainer.innerHTML = `
 <div class ="flex justify-center my-5"><img src ="${phone.image}" alt ="" /></div>
